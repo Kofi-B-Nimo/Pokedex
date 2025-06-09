@@ -6,6 +6,7 @@ This project uses Python to retrieve data on Pokémon from the PokéAPI. Key att
 
 ## Step 1
 To begin the project, my initial steps involve taking a look at the PokeAPI, and getting insight of how exactly the data's structured in order for me to understand how to go about scraping the website. after checking out the website, I can say the data is formatted using key-value pairs (JSON formatting).
+
 ![PokeAPI formatting](https://github.com/user-attachments/assets/fc621132-24ed-44cd-a2ab-0e4718b317fd)
 
 ## Step 2
