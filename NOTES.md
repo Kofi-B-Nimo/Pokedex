@@ -16,8 +16,10 @@ So step 2 consists of creating a function that would:
 here's a screenshot of what that looks like and the output return for step 2
 
 code:
+
 ![pokedex py step 1](https://github.com/user-attachments/assets/799ed154-6c7d-4e2a-ba91-2ff9399e47a9)
 
 output:
+
 ![pokedex py step 1 output](https://github.com/user-attachments/assets/7f716cba-f455-46fa-b84c-efd6e6c1c859)
 
