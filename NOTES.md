@@ -5,3 +5,19 @@ To begin the project, my initial steps involve taking a look at the PokeAPI, and
 
 ## Step 2
 the next step involves using the Requests library in Python to extract the necessary data from the PokeAPI, which includes pokemon number, name, type,height, weight, location, and etc. I should be able to achieve this by creating a for-loop and iterrating through the desired number of pokemon (using each pokemon's ID number) to extract the data I'm looking for. 
+
+so......
+I had to slow my role a bit and not try and extract all that data at once. I focused first on just making sure i could extract the names of the pokemon based on their ID numbers.
+So step 2 consists of creating a function that would:
+- initiate a for-loop that loops through the pokemon id numbers
+- while looping through the pokemon id's, each time the request status is checked
+- if the request status is a success; the function returns the name of each pokemon within the range provided 
+
+here's a screenshot of what that looks like and the output return for step 2
+
+code:
+![pokedex py step 1](https://github.com/user-attachments/assets/799ed154-6c7d-4e2a-ba91-2ff9399e47a9)
+
+output:
+![pokedex py step 1 output](https://github.com/user-attachments/assets/7f716cba-f455-46fa-b84c-efd6e6c1c859)
+
