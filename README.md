@@ -29,5 +29,8 @@ output:
 
 ![pokedex py step 1 output](https://github.com/user-attachments/assets/7f716cba-f455-46fa-b84c-efd6e6c1c859)
 
+## Step 3
+this step will consist of retrieving all the info wanted from the API and placing the data into a dictionary.
+
 
 
