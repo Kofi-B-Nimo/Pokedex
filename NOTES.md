@@ -37,6 +37,14 @@ the next step was or half step was to extract the data I was ooking for so I rep
 
 yeaaaah so I brushed up on accessing dictionary indices and went a little buck wild and added move sets for each pokemon as well! So currently I'm just printing out the values for each key I'm calling, that's definitely not how things will be. This was more to see how the data was looking for each pokemon, what should happen next on my end would be creating a variable for each of the data points called and from there I'll create a for- loop and loop all the data into a dictionary and voilà!  But that's what step 3 is for!
 
+![pokedex step 2 95](https://github.com/user-attachments/assets/f409464d-b992-44ba-9bbe-640253daf593)
+
+
+## step 3
+
+
+
+
 
 
  
