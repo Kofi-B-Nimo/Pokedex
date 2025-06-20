@@ -25,3 +25,7 @@ output:
 
 ## step 2.5
  the next step was or half step was to extract the data I was ooking for so I replicated the initial process of printing the data and calling the key names of the  values I need.
+![pokedex step 2 5 extra data](https://github.com/user-attachments/assets/3feb9e5c-2b26-4e63-8f6d-6b5d49eed4fe)
+
+ 
+ the next little issue was concerning a nested value within the api, i ha
