@@ -75,14 +75,28 @@ output:
 ---
 
 ## step 4
-step 4!!! the finish line's within reach!! (hoepfully 👀)
+step 4!!! the finish line's within reach!! (hopefully 👀)
 last step should be easy work, all I have to do is use the pandas DataFrame() function on the dictionary and game over right?
 
 No. 🥲
 
-So I did use the pandas Dataframe function on the pokemon_dict and named the dataframe pokedex_df. I thought that meant game over but decidedm to print out the dataframe just to make sure and this was what I got:
+So I did use the pandas Dataframe function on the pokemon_dict and named the dataframe pokedex_df. I thought that meant game over but decided to print out the dataframe just to make sure and this was what I got:
 
 ![pokedex step 4 og dataframe](https://github.com/user-attachments/assets/aaeb3278-0300-4883-8e62-62c5e4ca78f4)
+
+It's definitely a dataframe, but not what I had envisioned it to be. Rather than the pokemon ID's as the columns, I had envisioned the dataframe to display each pokemon's information in rows across the table and for the columns to be names that represents clearly the data under each column. In order for me to do that I used the .transpose() function on the pokemon_df.
+The .transpose() function is a function within the pandas library that flips a table by swapping the matrices ( columns and rows) with eachother wich would give me my desired result:
+
+Here's the code:
+
+![pokedex step 4 transpose](https://github.com/user-attachments/assets/0a6b8492-0800-452f-993a-96552c54427d)
+
+The result:
+
+![pokedex step 4 transpose result](https://github.com/user-attachments/assets/58ddacf9-49b4-495a-b8e1-8bc37c4c8b32)
+
+
+
 
 
 
