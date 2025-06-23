@@ -109,7 +109,7 @@ Here is the result:
 ---
 ## step 5 😪
 this step I just cleanup really, there are a few things i wanted to change:
- - so the height of the pokemon were recorded in decimeters, why I don't know, so I looked up the conversion rate of decimeters to centimeters and found that I'd have to multply the provided values by 10 to convert it to centimeters. I did this by performing a function on the 'height' column of the dataframe and multiplied the entire colum by 10.
+ - so the height of the pokemon were recorded in decimeters, why I don't know, so I looked up the conversion rate of decimeters to centimeters and found that I'd have to multply the provided values by 10 to convert it to centimeters. I did this by performing a function on the 'height' column of the dataframe and multiplied the entire column by 10.
  - Similarly to height, weight was also recorded in hectograms, why I don't know 😅, so found the conversion rate between hectograms and kilograms, the conversion would have me divide the column by 10 for the values to be converted to kilos. I then performed a function on the 'weight' column and just like magic; Kilograms.
  - I then changed the column headers accordingly to 'height(cm)' and 'weight(kg)'
 
@@ -122,8 +122,15 @@ here's the output:
 
 ![pokedex step 5 clean up results](https://github.com/user-attachments/assets/62d737fa-55ab-487e-bf58-e64c01465874)
 
+- Last but not least I wanted all  the pokemon names to be in title case, so i used the pandas .str.title() function on the 'name' column.
+here's the code:
+
+![pokedex step 5 case](https://github.com/user-attachments/assets/9fd500eb-427f-4561-9c0e-7d6f33eee3f7)
 
 
+here's the output:
+
+![pokedex step 5 case output](https://github.com/user-attachments/assets/0fc082cb-116e-4fc2-8341-dac8325e1674)
 
 
 
