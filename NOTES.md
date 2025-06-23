@@ -49,7 +49,11 @@ yeaaaah so I brushed up on accessing dictionary indices and went a little buck w
 
 
 ## step 3
-Step tres (three); So this step will be the step where I plan to create variables and take the values within each variable and place them into a dictionary by creating a for-loop. That's the plan as of right now, lets see how it actually goes!
+Step tres (3); So this step will be the step where I plan to create variables and take the values within each variable and place them into a dictionary by creating a for-loop. That's the plan as of right now, lets see how it actually goes!
+
+Hey! I'm back, So defintely easier said than done but here was the process:
+
+1) 
 
 
 
