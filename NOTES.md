@@ -1,4 +1,4 @@
-## Step 1
+##  Step 1
 To begin the project, my initial steps involve taking a look at the PokeAPI, and getting insight of how exactly the data's structured in order for me to understand how to go about scraping the website. after checking out the website, I can say the data is formatted using key-value pairs (JSON formatting).
 
 ![PokeAPI formatting](https://github.com/user-attachments/assets/fc621132-24ed-44cd-a2ab-0e4718b317fd)
@@ -131,6 +131,11 @@ here's the code:
 here's the output:
 
 ![pokedex step 5 case output](https://github.com/user-attachments/assets/0fc082cb-116e-4fc2-8341-dac8325e1674)
+
+---
+
+## Final Thoughts and Reflections
+It feels good to complete my first completely unguided python project 🎉! I initially saw it as a daunting task, one that I honestly didnt know if I'd be able to complete atleast in the timeframe I had given myself. As I continued on through the project and each obstacle set in front was overcome, the task became less and less intimidating and I began to tackle situation with curiosity and optimism. This project was a solid way for me to practice working with an API and organizing real-world data using Python. My goal was to scrape key details from the PokeAPI — things like name, type, moves, height, and weight — and present it all in a clean and readable format. What I absolutely enjoyed most about the process was seeing everything come together — going from raw data to a full table that actually made sense and could be analyzed or built on later. Overall, it gave me a stronger understanding of how to collect and structure data in a way that makes it easier to work with.
 
 
 
