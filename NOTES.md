@@ -106,6 +106,23 @@ Here is the result:
 
 ![pokedex step 4 column rename output](https://github.com/user-attachments/assets/0be67962-65f3-4064-adb1-38d30a4353d3)
 
+---
+## step 5 😪
+this step I just cleanup really, there are a few things i wanted to change:
+ - so the height of the pokemon were recorded in decimeters, why I don't know, so I looked up the conversion rate of decimeters to centimeters and found that I'd have to multply the provided values by 10 to convert it to centimeters. I did this by performing a function on the 'height' column of the dataframe and multiplied the entire colum by 10.
+ - Similarly to height, weight was also recorded in hectograms, why I don't know 😅, so found the conversion rate between hectograms and kilograms, the conversion would have me divide the column by 10 for the values to be converted to kilos. I then performed a function on the 'weight' column and just like magic; Kilograms.
+ - I then changed the column headers accordingly to 'height(cm)' and 'weight(kg)'
+
+here's the code below:
+
+![pokedex step 5 cleanup](https://github.com/user-attachments/assets/b7d1a40a-0722-4e91-9e9c-ae8bc54c1ba7)
+
+
+here's the output:
+
+![pokedex step 5 clean up results](https://github.com/user-attachments/assets/62d737fa-55ab-487e-bf58-e64c01465874)
+
+
 
 
 
