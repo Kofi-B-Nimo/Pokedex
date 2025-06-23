@@ -53,7 +53,14 @@ Step tres (3); So this step will be the step where I plan to create variables an
 
 Hey! I'm back, So defintely easier said than done but here was the process:
 
-1) 
+1) I had the scraped data printed within the for-loop and not saved to any variable, whoch would make it difficult for the later conversion into a dictionary so that was prioroity number one.
+
+![pokedex step 3 1](https://github.com/user-attachments/assets/03b274bc-1d7d-4824-bd38-1ea0a5552de8)
+
+2) I then had to create lists outside of the function (that corresponded to the lists within the for-loop) where I would append the scraped data that had just been placed within a list.
+
+![pokedex step 3 2](https://github.com/user-attachments/assets/378b5dfc-dcbe-4c2a-ae3a-d97c09450ceb)   ![pokedex step 3 25](https://github.com/user-attachments/assets/9172bf87-391a-4d86-b45d-0b770313b3d5)
+
 
 
 
