@@ -31,6 +31,33 @@ output:
 
 ## Step 3
 this step will consist of retrieving all the info wanted from the API and placing the data into a dictionary.
+The dictionary; 'pokemon_dict' was created to, for now, to house all the scraped data and this is a brief outline of the process:
+- Create empty lists outside the function and name them corresponding to the requested data within the for-loop
+- Take all the the requested data being printed within the for-loop and assign the data to variables
+- Then append the data within the for-loop to the lists outside the for-loop (so that everytime an iteration cycle is complete all the requested information for each pokemon is added)
+- Once all the necesarry data has been appended to the lists, a variable called pokemon_data was created that contained a zip of all 8 lists (poke_ids, pokemon_names, types, moves1, moves2, moves3, heights, weights)
+- In order to create a dictionary a dict comprehension was utilized by assigning poke_ids as the key and the remaining 7 lists and the values
+- The created dictionary was called pokemon_dict
+
+appending data into lists:
+
+![pokedex step 3 README md lists](https://github.com/user-attachments/assets/c2c0d4c8-ee86-45ee-942e-59c01640bdae)
+
+zipped list into a dictionary:
+
+![pokedex step 3 README md dicts](https://github.com/user-attachments/assets/b58644e0-c014-49d5-9399-58c8b2f5a04c)
+
+dictionary output:
+
+![pokedex step 3 3 output](https://github.com/user-attachments/assets/c52f0fe6-2f2b-4aeb-80fe-cf12e634d577)
+
+
+
+
+
+
+
+
 
 
 
