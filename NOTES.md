@@ -72,6 +72,18 @@ output:
 
 ![pokedex step 3 3 output](https://github.com/user-attachments/assets/b5d81a80-0786-47f7-979c-c4a31aaa8d07)
 
+---
+
+## step 4
+step 4!!! the finish line's within reach!! (hoepfully 👀)
+last step should be easy work, all I have to do is use the pandas DataFrame() function on the dictionary and game over right?
+
+No. 🥲
+
+So I did use the pandas Dataframe function on the pokemon_dict and named the dataframe pokedex_df. I thought that meant game over but decidedm to print out the dataframe just to make sure and this was what I got:
+
+![pokedex step 4 og dataframe](https://github.com/user-attachments/assets/aaeb3278-0300-4883-8e62-62c5e4ca78f4)
+
 
 
 
