@@ -97,6 +97,18 @@ The result:
 
 Done right? No
 
+The next item on the docket was finding out a way to rename the columns so that each of the data types extracted could be labled accordlingly, so I created a list of the column names called; dfcolumn_names.
+I set pokedex_table.columns = dfcolumn_names, to replace the original column names, this is the code:
+
+![pokedex step 4 column rename](https://github.com/user-attachments/assets/89b86350-f0d4-454c-98ae-0a5898b9bcb9)
+
+Here is the result:
+
+![pokedex step 4 column rename output](https://github.com/user-attachments/assets/0be67962-65f3-4064-adb1-38d30a4353d3)
+
+
+
+
 
 
 
