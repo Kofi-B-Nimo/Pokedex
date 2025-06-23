@@ -95,6 +95,8 @@ The result:
 
 ![pokedex step 4 transpose result](https://github.com/user-attachments/assets/58ddacf9-49b4-495a-b8e1-8bc37c4c8b32)
 
+Done right? No
+
 
 
 
