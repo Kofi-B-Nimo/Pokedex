@@ -59,7 +59,19 @@ Hey! I'm back, So defintely easier said than done but here was the process:
 
 2) I then had to create lists outside of the function (that corresponded to the lists within the for-loop) where I would append the scraped data that had just been placed within a list.
 
-![pokedex step 3 2](https://github.com/user-attachments/assets/378b5dfc-dcbe-4c2a-ae3a-d97c09450ceb)   ![pokedex step 3 25](https://github.com/user-attachments/assets/9172bf87-391a-4d86-b45d-0b770313b3d5)
+![pokedex step 3 2](https://github.com/user-attachments/assets/378b5dfc-dcbe-4c2a-ae3a-d97c09450ceb)   
+
+![pokedex step 3 25](https://github.com/user-attachments/assets/9172bf87-391a-4d86-b45d-0b770313b3d5)
+
+3) Once all the lists were appended; I had to take the lists, zip them into a variable called pokemon_data and create a dict comprehension called pokemon_dict ( easier said than done, I had to get a little refresher on how to handle dictionaries)
+   - I was initially unsure if I could zip more than 2 lists together (the most I'd done in the past was 2). I also was unsure of i could create a singular dict comprehension for all these lists or if it was something I had to do a few times over. so I had to do a bit of reading and practice on a virtual environment through codecademy, and eventually I figured out how to create a key: value(s) pair and below is the result:
+
+![pokedex step 3 3](https://github.com/user-attachments/assets/929e6536-c2b6-4532-b94f-3974c73af0df)
+
+output:
+
+![pokedex step 3 3 output](https://github.com/user-attachments/assets/b5d81a80-0786-47f7-979c-c4a31aaa8d07)
+
 
 
 
