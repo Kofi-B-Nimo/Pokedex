@@ -68,7 +68,24 @@ dictionary output:
 - Used pokedex_table.columns = dfcolumn_names to rename the columns to match the data under them.
 - The result: a well-structured, clean DataFrame with Pokémon data organized row by row and labeled clearly.
 
+Dataframe transpose:
 
+![pokedex step 4 transpose](https://github.com/user-attachments/assets/1024ce6c-201b-4d63-b6c0-61594ddd4d38)
+
+transpose  of the dataframe result:
+
+![pokedex step 4 transpose result](https://github.com/user-attachments/assets/5dcc32a0-021a-4135-8f3e-90e054dfa95e)
+
+column rename results:
+
+![pokedex step 4 column rename output](https://github.com/user-attachments/assets/528e2729-bc55-4d68-89dc-a24f7ba5aa29)
+
+
+
+
+---
+
+## step 5
 
 
 
