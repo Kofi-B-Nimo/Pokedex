@@ -103,6 +103,15 @@ Wanted to tidy up a few final details to make the DataFrame cleaner and easier t
   - After converting the units, I updated the column names for clarity:
     - `'height'` → `'Height (cm)'`
     - `'weight'` → `'Weight (kg)'`
+   
+Code used:
+
+  ![pokedex step 5 cleanup](https://github.com/user-attachments/assets/pokedex-step-5-cleanup.png)
+
+Result after conversion:
+
+  ![pokedex step 5 cleanup results](https://github.com/user-attachments/assets/pokedex-step-5-cleanup-results.png)
+
 
 
 
