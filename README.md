@@ -14,22 +14,22 @@ To begin the project, my initial steps involve taking a look at the PokeAPI, and
 ---
 
 ## Step 2
-the next step involves using the Requests library in Python to extract the necessary data from the PokeAPI, which includes pokemon number, name, type,height, weight, location, and etc. I should be able to achieve this by creating a for-loop and iterrating through the desired number of pokemon (using each pokemon's ID number) to extract the data I'm looking for. 
+The next step involves using the Requests library in Python to extract the necessary data from the PokeAPI, which includes pokemon number, name, type,height, weight, location, and etc. I should be able to achieve this by creating a for-loop and iterrating through the desired number of pokemon (using each pokemon's ID number) to extract the data I'm looking for. 
 
 so......
 I had to slow my role a bit and not try and extract all that data at once. I focused first on just making sure i could extract the names of the pokemon based on their ID numbers.
 So step 2 consists of creating a function that would:
-- initiate a for-loop that loops through the pokemon id numbers
-- while looping through the pokemon id's, each time the request status is checked
-- if the request status is a success; the function returns the name of each pokemon within the range provided 
+- Initiate a for-loop that loops through the pokemon id numbers
+- While looping through the pokemon id's, each time the request status is checked
+- If the request status is a success; the function returns the name of each pokemon within the range provided 
 
-here's a screenshot of what that looks like and the output return for step 2
+Here's a screenshot of what that looks like and the output return for step 2
 
-code:
+Code:
 
 ![pokedex py step 1](https://github.com/user-attachments/assets/799ed154-6c7d-4e2a-ba91-2ff9399e47a9)
 
-output:
+Output:
 
 ![pokedex py step 1 output](https://github.com/user-attachments/assets/7f716cba-f455-46fa-b84c-efd6e6c1c859)
 
@@ -45,15 +45,15 @@ The dictionary; 'pokemon_dict' was created to, for now, to house all the scraped
 - In order to create a dictionary a dict comprehension was utilized by assigning `poke_ids` as the key and the remaining 7 lists and the values
 - The created dictionary was called `pokemon_dict`
 
-appending data into lists:
+Appending data into lists:
 
 ![pokedex step 3 README md lists](https://github.com/user-attachments/assets/c2c0d4c8-ee86-45ee-942e-59c01640bdae)
 
-zipped list into a dictionary:
+Zipped list into a dictionary:
 
 ![pokedex step 3 README md dicts](https://github.com/user-attachments/assets/b58644e0-c014-49d5-9399-58c8b2f5a04c)
 
-dictionary output:
+Dictionary output:
 
 ![pokedex step 3 3 output](https://github.com/user-attachments/assets/c52f0fe6-2f2b-4aeb-80fe-cf12e634d577)
 
@@ -72,11 +72,11 @@ Dataframe transpose:
 
 ![pokedex step 4 transpose](https://github.com/user-attachments/assets/1024ce6c-201b-4d63-b6c0-61594ddd4d38)
 
-transpose  of the dataframe result:
+Transpose  of the dataframe result:
 
 ![pokedex step 4 transpose result](https://github.com/user-attachments/assets/5dcc32a0-021a-4135-8f3e-90e054dfa95e)
 
-column rename results:
+Column rename results:
 
 ![pokedex step 4 column rename output](https://github.com/user-attachments/assets/528e2729-bc55-4d68-89dc-a24f7ba5aa29)
 
@@ -104,14 +104,31 @@ Wanted to tidy up a few final details to make the DataFrame cleaner and easier t
     - `'height'` → `'Height (cm)'`
     - `'weight'` → `'Weight (kg)'`
    
-Code used:
+Unit conversion:
 
-  ![pokedex step 5 cleanup](https://github.com/user-attachments/assets/5c72902e-7a5f-41a1-b51a-fd50f716b46c)
+![pokedex step 5 cleanup](https://github.com/user-attachments/assets/5c72902e-7a5f-41a1-b51a-fd50f716b46c)
 
 
 Result after conversion:
 
- ![pokedex step 5 clean up results](https://github.com/user-attachments/assets/b4d50a1d-eac7-48fc-be54-9055411ceab3)
+![pokedex step 5 clean up results](https://github.com/user-attachments/assets/b4d50a1d-eac7-48fc-be54-9055411ceab3)
+
+- Formatted Pokémon names:
+  - The API returned all lowercase names.
+  - Used `.str.title()` on the `'name'` column to convert them to proper title case (e.g., `bulbasaur` → `Bulbasaur`).
+
+Changing pokemon name letter case:
+
+![pokedex step 5 case](https://github.com/user-attachments/assets/b796f87d-299d-47ef-9a33-d150dbf68e49)
+
+
+Letter case result:
+
+![pokedex step 5 case output](https://github.com/user-attachments/assets/494a17f5-9cc4-4873-a34a-8f2200c44aa0)
+
+
+
+
 
 
 
