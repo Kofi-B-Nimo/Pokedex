@@ -106,11 +106,13 @@ Wanted to tidy up a few final details to make the DataFrame cleaner and easier t
    
 Code used:
 
-  ![pokedex step 5 cleanup](https://github.com/user-attachments/assets/pokedex-step-5-cleanup.png)
+  ![pokedex step 5 cleanup](https://github.com/user-attachments/assets/5c72902e-7a5f-41a1-b51a-fd50f716b46c)
+
 
 Result after conversion:
 
-  ![pokedex step 5 cleanup results](https://github.com/user-attachments/assets/pokedex-step-5-cleanup-results.png)
+ ![pokedex step 5 clean up results](https://github.com/user-attachments/assets/b4d50a1d-eac7-48fc-be54-9055411ceab3)
+
 
 
 
