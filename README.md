@@ -85,7 +85,14 @@ column rename results:
 
 ---
 
-## step 5
+##  Step 5 
+
+- Wanted to tidy up a few final details to make the DataFrame cleaner and easier to understand.
+
+- 📏 **Height conversion:**
+  - The API gave height values in **decimeters** (why? I don’t know 🤷🏾‍♂️).
+  - I looked up the conversion rate — multiplying by `10` gave me centimeters.
+  - Applied the change directly to the `'height'` column.
 
 
 
