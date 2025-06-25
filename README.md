@@ -87,7 +87,7 @@ column rename results:
 
 ##  Step 5
 
-- Wanted to tidy up a few final details to make the DataFrame cleaner and easier to understand.
+Wanted to tidy up a few final details to make the DataFrame cleaner and easier to understand.
 
 - 📏 **Height conversion:**
   - The API gave height values in **decimeters** (why? I don’t know 🤷🏾‍♂️).
