@@ -128,7 +128,7 @@ Letter case result:
 
 ---
 
-## Conclusion? Final Thoughts
+## Conclusion Final Thoughts
 
 This project was a great way to put everything together — from working with APIs and handling real-world JSON data, to cleaning and organizing it with Python and pandas. Along the way, I ran into a few unexpected quirks (like decimeters and hectograms 😅), but figuring those things out made the process even more rewarding.
 
