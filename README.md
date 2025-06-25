@@ -42,8 +42,8 @@ The dictionary; 'pokemon_dict' was created to, for now, to house all the scraped
 - Take all the the requested data being printed within the for-loop and assign the data to variables
 - Then append the data within the for-loop to the lists outside the for-loop (so that everytime an iteration cycle is complete all the requested information for each pokemon is added)
 - Once all the necesarry data has been appended to the lists, a variable called pokemon_data was created that contained a zip of all 8 lists (poke_ids, pokemon_names, types, moves1, moves2, moves3, heights, weights)
-- In order to create a dictionary a dict comprehension was utilized by assigning poke_ids as the key and the remaining 7 lists and the values
-- The created dictionary was called pokemon_dict
+- In order to create a dictionary a dict comprehension was utilized by assigning `poke_ids` as the key and the remaining 7 lists and the values
+- The created dictionary was called `pokemon_dict`
 
 appending data into lists:
 
@@ -60,12 +60,12 @@ dictionary output:
 ---
 
 ## Step 4 
-- Created a DataFrame from pokemon_dict using pd.DataFrame() and named it pokedex_df.
+- Created a DataFrame from pokemon_dict using `pd.DataFrame()` and named it `pokedex_df`.
 - Upon inspecting the DataFrame, the layout wasn’t what I expected — Pokémon IDs became columns instead of rows.
-- Used .transpose() to flip the DataFrame so that each Pokémon became a row and the data types (like name, type, height, etc.) became columns.
+- Used `.transpose()` to flip the DataFrame so that each Pokémon became a row and the data types (like name, type, height, etc.) became columns.
 - This successfully flipped the table to match the structure I envisioned.
 - Next, I created a list called dfcolumn_names to manually assign readable column headers.
-- Used pokedex_table.columns = dfcolumn_names to rename the columns to match the data under them.
+- Used `pokedex_table.columns = dfcolumn_names` to rename the columns to match the data under them.
 - The result: a well-structured, clean DataFrame with Pokémon data organized row by row and labeled clearly.
 
 Dataframe transpose:
@@ -89,10 +89,20 @@ column rename results:
 
 Wanted to tidy up a few final details to make the DataFrame cleaner and easier to understand.
 
-- 📏 **Height conversion:**
-  - The API gave height values in **decimeters** (why? I don’t know 🤷🏾‍♂️).
+- Height conversion:
+  - The API gave height values in decimeters (why? I don’t know 🤷🏾‍♂️).
   - I looked up the conversion rate — multiplying by `10` gave me centimeters.
   - Applied the change directly to the `'height'` column.
+
+- Weight conversion:
+  - Weight was recorded in hectograms (again... why? 😅).
+  - Divided the `'weight'` column by `10` to convert it to kilograms.
+  - Worked like magic — now it's readable and makes sense.
+
+- Renamed columns:
+  - After converting the units, I updated the column names for clarity:
+    - `'height'` → `'Height (cm)'`
+    - `'weight'` → `'Weight (kg)'`
 
 
 
