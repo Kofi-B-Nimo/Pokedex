@@ -59,7 +59,14 @@ dictionary output:
 
 ---
 
-## Step 4
+## Step 4 
+- Created a DataFrame from pokemon_dict using pd.DataFrame() and named it pokedex_df.
+- Upon inspecting the DataFrame, the layout wasn’t what I expected — Pokémon IDs became columns instead of rows.
+- Used .transpose() to flip the DataFrame so that each Pokémon became a row and the data types (like name, type, height, etc.) became columns.
+- This successfully flipped the table to match the structure I envisioned.
+- Next, I created a list called dfcolumn_names to manually assign readable column headers.
+- Used pokedex_table.columns = dfcolumn_names to rename the columns to match the data under them.
+- The result: a well-structured, clean DataFrame with Pokémon data organized row by row and labeled clearly.
 
 
 
