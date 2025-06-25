@@ -85,7 +85,7 @@ column rename results:
 
 ---
 
-##  `Step 5 `
+##  Step 5
 
 - Wanted to tidy up a few final details to make the DataFrame cleaner and easier to understand.
 
